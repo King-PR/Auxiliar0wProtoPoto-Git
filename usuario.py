@@ -6,6 +6,7 @@ class Usuario:
         self.tareas = []
 
     def agregarTarea(self, tarea):
+<<<<<<< HEAD
         self.tareas.append(tarea)
 
 def listarTareas(self):
@@ -13,3 +14,6 @@ def listarTareas(self):
        if tarea.estaLista():
            print(f"La tarea {tarea.obtenerNombre()} está lista")
            print(f"La tarea {tarea.obtenerNombre()} no está lista")
+=======
+        self.tareas.append(tarea)
+>>>>>>> 378ccc57e5ce0c75be926eddc77451bd4644cc48
